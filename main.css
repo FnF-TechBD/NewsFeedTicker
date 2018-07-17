@@ -1,0 +1,32 @@
+.col-sm-1 {
+    background-color: darkorange;
+    border-right: 1px solid red; 
+    min-height: inherit;
+    padding: 5px;
+}
+
+.newsfeedContainer {
+    border-radius: 2.5px;
+    border: 1px solid red;
+    min-height: 30px; 
+}
+
+.nesfeedNews {
+    margin: 2.5px 0px 2.5px 0px;
+}
+
+
+.nesfeedNews a:hover {
+    text-decoration: none;
+}
+
+#showingNews img{
+    height: 15px;
+    width: 20px;
+    margin-right: 2px;
+}
+
+#showingNews a {
+    margin-right : 20px;
+}
+ 
