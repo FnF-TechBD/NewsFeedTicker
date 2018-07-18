@@ -6,25 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>News Feed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css" />
+     
 </head>
 
 <body>
+       
+
     <div class="newsfeedContainer row">
+        <span class="customize glyphicon glyphicon-cog pull-right" aria-hidden="false" onclick="showSetting()"></span>
+
+
         <div class="sticker col col-sm-1">
-            News
+           Breaking News
         </div>
         <div class="nesfeedNews col col-sm-11" >
             <marquee behavior="scroll" id="showingNews" direction="left" onmouseover="this.stop();" onmouseout="this.start();">Here is some scrolling text... right to left!</marquee>
         </div>
     </div>
     
+   
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
     <script src="main.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./jquery.rss.min.js" ></script>
+  
 </body>
 
 </html>

@@ -1,15 +1,17 @@
-.col-sm-1 {
+.sticker {
     background-color: darkorange;
-    border-right: 1px solid red; 
-    min-height: inherit;
+    border-right: 1px solid red;
     padding: 5px;
+    height: 45px;
 }
 
 .newsfeedContainer {
     border-radius: 2.5px;
     border: 1px solid red;
-    min-height: 30px; 
+    min-height: 30px;
+    margin: 10px;
 }
+
 
 .nesfeedNews {
     margin: 2.5px 0px 2.5px 0px;
@@ -29,4 +31,7 @@
 #showingNews a {
     margin-right : 20px;
 }
- 
+
+.customize:hover{
+    cursor: pointer;
+}

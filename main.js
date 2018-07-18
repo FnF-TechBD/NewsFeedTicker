@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	//feed to parse
-	var feed = "http://www.dailyjanakantha.com/rss.php";
+	var feed = "https://cors-anywhere.herokuapp.com/http://www.dailyjanakantha.com/rss.php";
 
 	 $.ajax(feed, {
 		method: "GET",
@@ -13,9 +13,9 @@ $(document).ready(function () {
 		},
 		dataType: "xml",
 		success: function (data) {
-			//Credit: http://stackoverflow.com/questions/10943544/how-to-parse-an-rss-feed-using-javascript
+			 
 			var highlights = [];
-			$(data).find("item").each(function () { // or "item" or whatever suits your feed
+			$(data).find("item").each(function () {  
 				var el = $(this);
 
 
@@ -31,3 +31,7 @@ $(document).ready(function () {
 	}); 
 
 });
+
+function showSetting() {
+	console.log('Aya');
+}
